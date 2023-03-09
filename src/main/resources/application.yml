@@ -14,6 +14,9 @@ spring:
     port: 6379
     database: 0
     connect-timeout: 10000
+  cache:
+    redis:
+      time-to-live: 180000
 mybatis-plus:
   configuration:
     map-underscore-to-camel-case: true
